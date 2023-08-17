@@ -78,35 +78,43 @@
     </div>
   </div> -->
 <template>
-  <div class="max-w-7xl mx-auto px-8">
-    <div
-      class="flex flex-col justify-center items-center py-24 mx-auto text-left max-w-2xl"
-    >
-      <p class="text-5xl font-bold mb-5 text-blue-600">
-        A design conference for the dark side.
-      </p>
-      <p class="mb-5 text-2xl text-blue-900">
-        The next generation of web users are tech-savvy and suspicious. They
-        know how to use dev tools, they can detect a phishing scam from a mile
-        away, and they certainly aren’t accepting any checks from Western Union.
-      </p>
-      <p class="text-2xl text-blue-900">
-        At DeceptiConf you’ll learn about the latest dark patterns being
-        developed to trick even the smartest visitors, and you’ll learn how to
-        deploy them without ever being detected.
-      </p>
-    </div>
-    <div
-      class="flex felx-col justify-between justify-center items-center max-w-2xl mx-auto mt-8"
-    >
-      <div v-for="x in 4" :key="x">
-        <div class="grid">
-          <p class="font-mono text-sm text-blue-600">Speakers</p>
-          <p class="mt-0.5 text-2xl font-semibold text-blue-900">18</p>
+  <!-- <div
+    class="bg-cover bg-center"
+    width="918"
+    height="1495"
+    style="background-image: url('https://keynote.tailwindui.com/_next/static/media/background.6c3571e0.jpg')"
+  > -->
+    <div class="max-w-7xl mx-auto px-8">
+      <div
+        class="flex flex-col justify-center items-center py-24 mx-auto text-left max-w-2xl"
+      >
+        <p class="text-5xl font-bold mb-5 text-blue-600">
+          A design conference for the dark side.
+        </p>
+        <p class="mb-5 text-2xl text-blue-900">
+          The next generation of web users are tech-savvy and suspicious. They
+          know how to use dev tools, they can detect a phishing scam from a mile
+          away, and they certainly aren’t accepting any checks from Western
+          Union.
+        </p>
+        <p class="text-2xl text-blue-900">
+          At DeceptiConf you’ll learn about the latest dark patterns being
+          developed to trick even the smartest visitors, and you’ll learn how to
+          deploy them without ever being detected.
+        </p>
+      </div>
+      <div
+        class="flex felx-col justify-between justify-center items-center max-w-2xl mx-auto"
+      >
+        <div v-for="x in 4" :key="x">
+          <div class="grid">
+            <p class="font-mono text-sm text-blue-600">Speakers</p>
+            <p class="mt-0.5 text-2xl font-semibold text-blue-900">18</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 </template>
 
 <script>

@@ -52,10 +52,9 @@
     </div>
   </header> -->
 
-  <div class="flex justify-between pt-10 px-10">
+  <div class="flex justify-between pt-10 px-10 relative z-50 ">
     <svg viewBox="0 0 183 48" class="h-11 w-auto text-slate-900">
       <path
-        fill="#3B82F6"
         d="M1.172 21.172a4 4 0 000 5.656l20 20a4 4 0 105.656-5.656l-20-20a4 4 0 00-5.656 0z"
       ></path>
       <path
