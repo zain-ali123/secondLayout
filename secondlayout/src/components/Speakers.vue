@@ -205,25 +205,25 @@
       </p>
     </div>
   </div>
-  <div class="flex flex-cols-3 mt-10">
-    <div class="list-none  ml-16">
+  <div class="flex flex-cols-3 py-32 px-8 mx-20">
+    <div class="list-none  ">
       <li v-for="x in 3" :key="x">
         <p class="grid justify-start ml-9">
           ♦
-          <span class="border-l-2 h-32 border-slate-600 ml-1"></span>
+          <span class="border-l-2 h-8 border-slate-600 ml-1"></span>
         </p>
       </li>
     </div>
-    <div class="grid w-2/4 ">
-      <div v-for="x in 3" :key="x">
+    <div class="felx flex-cols w-2/4 ">
+      <div v-for="x in 3" :key="x" class="">
         <div class="font-mono text-sm text-blue-600 ">Opening Day</div>
         <p class="text-2xl  text-blue-900 mt-1.5">April 4</p>
       </div>
     </div>
     <div class="">
-      <div class="grid grid-cols-3 gap-4">
-        <div v-for="x in 6" :key="x">
-          <div class="shadow-xl">
+      <div class="grid grid-cols-3 gap-4 ">
+        <div v-for="x in 6" :key="x" class="mb-10 ">
+          <div class="hover:scale-110 ">
 
             <img src="../assets/steven-mchail.png" alt="" />
             <h3
